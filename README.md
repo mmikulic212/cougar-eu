@@ -13,6 +13,22 @@ This project uses [MMJoy](https://github.com/MMJoy/mmjoy_en) - open-source USB H
 - **Download**: https://github.com/MMJoy/mmjoy_en/releases
 - **Wiki**: https://github.com/MMjoy/mmjoy_en/wiki
 
+## MMJoy Configuration Files
+
+Two pre-configured MMJoy settings are included in `mmjoy_setup/`:
+
+### tm_cougar_mlu_32b+hat.mmjoy
+- **32 buttons** + hat switch
+- 6 axes (throttle, X, Y, rX, rY, Slider)
+- CRS (course) controls mapped as **axes**
+
+### tm_cougar_mlu_36b+hat_crs_asbut.mmjoy
+- **36 buttons** + hat switch (32 + **4 additional** buttons)
+- 6 axes (throttle, X, Y, rX, rY, Slider)
+- CRS (course) controls mapped as **buttons** (for target cursor control in simulators)
+
+Both configurations work identically. Choose 36-button version if you want to control target cursor with buttons instead of axes.
+
 ## Hardware
 
 
